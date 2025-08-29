@@ -1,0 +1,11 @@
+name: FreeProtect
+version: '1.0-SNAPSHOT'
+main: com.normalsmp.freeProtect.FreeProtect
+api-version: '1.21'
+commands:
+  fp:
+    description: FreeProtect base command
+    usage: /<command> <subcommand>
+    aliases: [freeprotect]
+    permission: freeprotect.use
+    permission-message: You don't have permission!
